@@ -1,8 +1,10 @@
 package com.example.sherlockholmes;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
 public class MainActivity extends Activity {
 
@@ -20,4 +22,12 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    public void viewExhibitions(View view){
+    	Intent intentViewExhibitions = new Intent(this, DisplayExhibitions.class);
+    	startActivity(intentViewExhibitions);
+    }
+    
+    public void viewFavorites(View view){
+    	
+    }
 }
