@@ -4,21 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class DisplayExhibitions extends Activity implements OnItemClickListener{
 	
-	public static final String[] titles = new String[] { "Strawberry",
-        "Banana", "Orange", "Mixed" };
+	public static final String[] titles = new String[] { "Sherlock",
+		"Sherlock", "Sherlock", "Sherlock","Sherlock","Sherlock","Sherlock" };
 	
-	public static final Integer[] images = {R.drawable.acd2,R.drawable.acd6,R.drawable.acd7,R.drawable.acd18,
-		R.drawable.acd20,R.drawable.challenger,R.drawable.gerald,R.drawable.holmes};
+	public static final Integer[] images = {R.drawable.acd2,R.drawable.acd2,R.drawable.acd2,R.drawable.acd2,
+		R.drawable.acd2,R.drawable.acd2,R.drawable.acd2,R.drawable.acd2};
 	
 	ListView listView;
 	List<RowItem> rowItems;
@@ -41,9 +40,23 @@ public class DisplayExhibitions extends Activity implements OnItemClickListener{
     
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,long id){
-    	Toast toast = Toast.makeText(getApplicationContext(),"Item" + (position+1)+":"+rowItems.get(position), Toast.LENGTH_SHORT);
-    	toast.setGravity(Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
-    	toast.show();
+    	/* switch( position ) {
+         case 0:  Intent newActivity0 = new Intent(this, i1.class);     
+                  startActivity(newActivity0);
+                  break;
+         case 1:  Intent newActivity1 = new Intent(this, i2.class);     
+                  startActivity(newActivity1);
+                  break;
+         case 2:  Intent newActivity2 = new Intent(this, i3.class);     
+                  startActivity(newActivity2);
+                  break;
+         case 3:  Intent newActivity3 = new Intent(this, i4.class);     
+                  startActivity(newActivity3);
+                  break;
+         case 4:  Intent newActivity4 = new Intent(this, i5.class);     
+                  startActivity(newActivity4);
+                  break;
+        }*/
     }
     
     

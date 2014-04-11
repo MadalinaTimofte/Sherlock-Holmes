@@ -3,31 +3,51 @@ package com.example.sherlockholmes;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.GridView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements OnItemClickListener{
+	
+	GridView gridview;
+	DashboardAdapter adapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
     
-    public void viewExhibitions(View view){
-    	Intent intentViewExhibitions = new Intent(this, DisplayExhibitions.class);
-    	startActivity(intentViewExhibitions);
+        gridview = (GridView)findViewById(R.id.grid_view);
+        adapter = new DashboardAdapter(this);
+        gridview.setAdapter(adapter);
+        
+        gridview.setOnItemClickListener(this);
     }
-    
-    public void viewFavorites(View view){
-    	
+        	 public void onItemClick(AdapterView<?> parent, View view, int position,long id){
+        	    	 switch( position ) {
+        	         case 0:  Intent newActivity0 = new Intent(this, i1.class);     
+        	                  startActivity(newActivity0);
+        	                  break;
+        	         case 1:  Intent newActivity1 = new Intent(this, i2.class);     
+        	                  startActivity(newActivity1);
+        	                  break;
+        	         case 2:  Intent newActivity2 = new Intent(this, i3.class);     
+        	                  startActivity(newActivity2);
+        	                  break;
+        	         case 3:  Intent newActivity3 = new Intent(this, i4.class);     
+        	                  startActivity(newActivity3);
+        	                  break;
+        	         case 4:  Intent newActivity4 = new Intent(this, i5.class);     
+        	                  startActivity(newActivity4);
+        	                  break;
+        	        }
+         
+        }
+        
     }
+        
 }
+
+  

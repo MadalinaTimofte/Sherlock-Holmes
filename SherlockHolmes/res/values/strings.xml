@@ -4,5 +4,15 @@
     <string name="app_name">Sherlock Holmes</string>
     <string name="action_settings">Settings</string>
     <string name="image">Image</string>
-
+    
+    <string name="RLG">RLG</string>
+    <string name="ACD">ACD</string>
+ <string name="spiritualism">Spiritualism</string>
+  <string name="ACDFamily">ACDFamily</string>
+   <string name="ACDPortsmouth">ACDPortsmouth</string>
+    <string name="sport">Sport</string>
+     <string name="gallery">Gallery</string>
+      <string name="your_visit">Your visit</string>
+       <string name="contact">Contact</string>
+   
 </resources>

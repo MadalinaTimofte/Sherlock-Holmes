@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class CustomBaseAdapter extends BaseAdapter{
 	Context context;
@@ -21,6 +22,7 @@ public class CustomBaseAdapter extends BaseAdapter{
 	 
 	private class ViewHolder{
 		ImageView imageView;
+		TextView txtTitle;
 		
 		
 	}
@@ -31,9 +33,12 @@ public class CustomBaseAdapter extends BaseAdapter{
 	LayoutInflater nInflater = (LayoutInflater)
 			context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 		if(convertView == null){
+			
 			convertView = nInflater.inflate(R.layout.list_item, null);
 			holder = new ViewHolder();
+			holder.txtTitle = (TextView) convertView.findViewById(R.id.title);
 			holder.imageView = (ImageView) convertView.findViewById(R.id.list_image);
+			
 			convertView.setTag(holder);
 		}
 		else{
@@ -41,6 +46,7 @@ public class CustomBaseAdapter extends BaseAdapter{
 		
 		}
 		RowItem rowItem = (RowItem) getItem(position);
+		holder.txtTitle.setText(rowItem.getTitle());
 		holder.imageView.setImageResource(rowItem.getImageId());
 		
 		return convertView;
@@ -59,4 +65,5 @@ public Object getItem(int position) {
 public long getItemId(int position) {
     return rowItems.indexOf(getItem(position));
 }
+
 }
