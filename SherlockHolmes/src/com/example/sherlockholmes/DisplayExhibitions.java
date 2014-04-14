@@ -16,8 +16,8 @@ public class DisplayExhibitions extends Activity implements OnItemClickListener{
 	public static final String[] titles = new String[] { "Sherlock",
 		"Sherlock", "Sherlock", "Sherlock","Sherlock","Sherlock","Sherlock" };
 	
-	public static final Integer[] images = {R.drawable.acd2,R.drawable.acd2,R.drawable.acd2,R.drawable.acd2,
-		R.drawable.acd2,R.drawable.acd2,R.drawable.acd2,R.drawable.acd2};
+	public static final Integer[] images = {R.drawable.articles_conandoyle,R.drawable.articles_conandoyle,R.drawable.articles_conandoyle,R.drawable.articles_conandoyle,
+		R.drawable.articles_conandoyle,R.drawable.articles_conandoyle,R.drawable.articles_conandoyle,R.drawable.articles_conandoyle};
 	
 	ListView listView;
 	List<RowItem> rowItems;

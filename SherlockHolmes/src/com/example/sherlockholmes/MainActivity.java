@@ -8,6 +8,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
+import com.example.sherlockholmes.articles_rlg.RLGArticleActivity;
+
 public class MainActivity extends Activity implements OnItemClickListener{
 	
 	GridView gridview;
@@ -27,10 +29,10 @@ public class MainActivity extends Activity implements OnItemClickListener{
     }
         	 public void onItemClick(AdapterView<?> parent, View view, int position,long id){
         	    	 switch( position ) {
-        	         case 0:  Intent newActivity0 = new Intent(this, i1.class);     
+        	         case 0:  Intent newActivity0 = new Intent(this, RLGArticleActivity.class);     
         	                  startActivity(newActivity0);
         	                  break;
-        	         case 1:  Intent newActivity1 = new Intent(this, i2.class);     
+        	       /*  case 1:  Intent newActivity1 = new Intent(this, i2.class);     
         	                  startActivity(newActivity1);
         	                  break;
         	         case 2:  Intent newActivity2 = new Intent(this, i3.class);     
@@ -43,7 +45,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
         	                  startActivity(newActivity4);
         	                  break;
         	        }
-         
+         */
         }
         
     }

@@ -15,4 +15,18 @@
       <string name="your_visit">Your visit</string>
        <string name="contact">Contact</string>
    
+       
+       <!-- Images -->
+       <string name="article_image">Image of the article</string>
+       
+       <!-- Events -->
+       <string name="exhibition_time">Exhibition time</string>
+       <string name="exhibition_venue">Exhibition venue</string>
+       <string name="march_event_time">4/03/2014&#8211;1/04/2014</string>
+       
+       <!-- Actions -->
+        <string name="action_previous">Previous</string>
+    
+    	<string name="action_finish">Finish</string>
+    		<string name="action_next">Next</string>
 </resources>
