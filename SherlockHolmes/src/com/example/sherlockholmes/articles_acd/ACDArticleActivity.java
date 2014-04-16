@@ -13,8 +13,8 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.sherlockholmes.MainActivity;
 import com.example.sherlockholmes.R;
+import com.example.sherlockholmes.main.MainActivity;
 
 public class ACDArticleActivity extends FragmentActivity {
 	

@@ -1,4 +1,4 @@
-package com.example.sherlockholmes;
+package com.example.sherlockholmes.main;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
+import com.example.sherlockholmes.R;
 import com.example.sherlockholmes.articles_rlg.RLGArticleActivity;
 
 public class MainActivity extends Activity implements OnItemClickListener{
@@ -29,13 +30,13 @@ public class MainActivity extends Activity implements OnItemClickListener{
     }
         	 public void onItemClick(AdapterView<?> parent, View view, int position,long id){
         	    	 switch( position ) {
-        	         case 0:  Intent newActivity0 = new Intent(this, RLGArticleActivity.class);     
+        	         case 0:  Intent newActivity0 = new Intent(this,com.example.sherlockholmes.main_acd.MainActivity.class);     
         	                  startActivity(newActivity0);
         	                  break;
-        	       /*  case 1:  Intent newActivity1 = new Intent(this, i2.class);     
+        	         case 1:  Intent newActivity1 = new Intent(this, RLGArticleActivity.class);     
         	                  startActivity(newActivity1);
         	                  break;
-        	         case 2:  Intent newActivity2 = new Intent(this, i3.class);     
+        	       /*  case 2:  Intent newActivity2 = new Intent(this, i3.class);     
         	                  startActivity(newActivity2);
         	                  break;
         	         case 3:  Intent newActivity3 = new Intent(this, i4.class);     

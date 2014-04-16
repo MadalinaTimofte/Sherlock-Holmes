@@ -10,11 +10,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon_sherlock"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.sherlockholmes.articles_acd.ACDArticleActivity"
+            android:name="com.example.sherlockholmes.main.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +22,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.sherlockholmes.main_acd.MainActivity"/>
+        <activity android:name="com.example.sherlockholmes.articles_acd.ACDArticleActivity"/>
+        <activity android:name="com.example.sherlockholmes.articles_family.FamilyArticleActivity"/>
+        <activity android:name="com.example.sherlockholmes.articles_holmes.HolmesArticleActivity"/>
+        <activity android:name="com.example.sherlockholmes.articles_rlg.RLGArticleActivity"/>
+        <activity android:name="com.example.sherlockholmes.articles_spiritualism.SpiritualismArticleActivity"/>
+        <activity android:name="com.example.sherlockholmes.events.EventsActivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_pompeylad.PompeyGridLayoutActivity"/>
+         <activity android:name="com.example.sherlockholmes.gallery_pompeylad.PompeyFullScreenViewActivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_spiritualism.SpiritualismGridLayoutActivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_spiritualism.SpiritualismFullScreenViewActivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_sportingheroes.SportingHeroesGridLayoutAcitivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_sportingheroes.SportingHeroesFullScreenViewActivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_thelostworld.TheLostWorldGridLayoutActivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_thelostworld.TheLostWorldFullScreenViewActivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_ww1.WW1GridLayoutAcitivity"/>
+        <activity android:name="com.example.sherlockholmes.gallery_ww1.WW1FullScreenViewActivity"/>
+        
+        
+        
          
         <!-- FullImageActivity -->
        

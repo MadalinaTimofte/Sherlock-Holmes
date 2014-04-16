@@ -16,7 +16,7 @@ public class ThirdPageFragment extends Fragment{
 	
 	 @Override
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-	        View v = inflater.inflate(R.layout.viewpager_title_text, container, false);
+	        View v = inflater.inflate(R.layout.viewpager_title_image_text, container, false);
 
 	        TextView title = (TextView) v.findViewById(R.id.pager_title);
 	        title.setText("The creation of the collection");
@@ -24,10 +24,6 @@ public class ThirdPageFragment extends Fragment{
 	        imageview.setImageResource(R.drawable.articles_rlg_collection);
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));
-	     
-	        
-	        
-
 	        return v;
 	    }
 

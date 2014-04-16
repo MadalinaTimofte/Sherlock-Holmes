@@ -1,4 +1,6 @@
-package com.example.sherlockholmes;
+package com.example.sherlockholmes.main_acd;
+
+import com.example.sherlockholmes.R;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,18 +17,18 @@ public class DashboardAdapter extends BaseAdapter {
  
     // Keep all Images in array
     private Integer[] mThumbIds = {
-            R.drawable.ic_exhibitions, R.drawable.ic_exhibitions,
-            R.drawable.ic_exhibitions, R.drawable.ic_exhibitions,
-            R.drawable.ic_exhibitions, R.drawable.ic_exhibitions,
+            R.drawable.icon_conan_doyle, R.drawable.icon_sherlock,
+            R.drawable.icon_family_1,R.drawable.icon_spiritualism,
+            R.drawable.icon_dramatisation
+          
             
     };
     
     private String[] title = {
-    		"RLG","ACD","Spiritualism","Family","Portsmouth","Sport"
+    		"","","","",""
     };
     
- 
-    // Constructor
+  // Constructor
     public DashboardAdapter(Context c){
         mContext = c;
     }
@@ -68,7 +70,7 @@ public class DashboardAdapter extends BaseAdapter {
 
             imageView.setImageResource(mThumbIds[position]);
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            row.setLayoutParams(new GridView.LayoutParams(70, 70));
+            row.setLayoutParams(new GridView.LayoutParams(200, 200));
             textViewTitle.setText(title[position]);
     	}
        

@@ -24,10 +24,6 @@ public class FirstPageFragment extends Fragment{
 	        imageview.setImageResource(R.drawable.articles_richard_lancelyn_green_000);
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));
-	       
-	        
-	        
-
 	        return v;
 	    }
 

@@ -14,7 +14,7 @@ public class SecondPageFragment extends Fragment{
 	
 	 @Override
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-	        View v = inflater.inflate(R.layout.viewpager_text, container, false);
+	        View v = inflater.inflate(R.layout.viewpager_title_text, container, false);
 
 	        TextView title = (TextView)v.findViewById(R.id.pager_title);
 	        title.setText("Marriage");

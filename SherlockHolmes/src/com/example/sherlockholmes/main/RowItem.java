@@ -1,4 +1,4 @@
-package com.example.sherlockholmes;
+package com.example.sherlockholmes.main;
 
 public class RowItem {
 	private int imageId;

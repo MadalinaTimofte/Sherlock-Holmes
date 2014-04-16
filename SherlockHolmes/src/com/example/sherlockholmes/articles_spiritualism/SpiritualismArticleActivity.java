@@ -9,8 +9,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 
 import com.example.sherlockholmes.R;
-import com.example.sherlockholmes.articles_rlg.FirstPageFragment;
-import com.example.sherlockholmes.articles_rlg.SecondPageFragment;
+import com.example.sherlockholmes.articles_spiritualism.FirstPageFragment;
+import com.example.sherlockholmes.articles_spiritualism.SecondPageFragment;
 
 public class SpiritualismArticleActivity extends FragmentActivity {
 

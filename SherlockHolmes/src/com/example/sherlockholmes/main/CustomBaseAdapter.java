@@ -1,6 +1,8 @@
-package com.example.sherlockholmes;
+package com.example.sherlockholmes.main;
 
 import java.util.List;
+
+import com.example.sherlockholmes.R;
 
 import android.app.Activity;
 import android.content.Context;

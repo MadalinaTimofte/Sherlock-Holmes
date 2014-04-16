@@ -20,9 +20,7 @@ public class SecondPageFragment extends Fragment{
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));
 	        
-           
-
-	        return v;
+           return v;
 	    }
 
 	    public static SecondPageFragment newInstance(String text) {
