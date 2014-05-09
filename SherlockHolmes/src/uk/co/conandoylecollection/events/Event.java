@@ -12,10 +12,7 @@ public class Event {
             this.date = date;
             this.place = place;
     }
-    
-    // Getter and setter methods for all the fields.
-    // Though you would not be using the setters for this example,
-    // it might be useful later.
+  
     public String getTheme() {
             return theme;
     }

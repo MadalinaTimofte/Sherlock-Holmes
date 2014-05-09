@@ -48,6 +48,9 @@ public class EventAdapter extends BaseAdapter {
 
         TextView place = (TextView) convertView.findViewById(R.id.place);
         place.setText(entry.getPlace());
+        
+        return convertView;
+    }
 
         // Set the onClick Listener on this button
        // Button btnGallery = (Button) convertView.findViewById(R.id.btnGallery);
@@ -62,8 +65,8 @@ public class EventAdapter extends BaseAdapter {
         // btnRemove.setId(position);
         
 
-        return convertView;
-    }
+      
+    
 
    
 }

@@ -32,23 +32,7 @@ public class PompeyLadImageAdapter extends BaseAdapter {
     		"Photograph of Arthur Conan Doyle taken on the day of his graduation as Bachelor of Medicine at the university of Edinburgh",
     		"Photograph of Arthur Conan Doyle standing outside Bush Villa in Southsea",
     		"Photographic portrait of Arthur Conan Doyle",
-    		"",
-    		"",
-    		"",
-    		"",
-    		"",
-    		"",
-    		"",
-    		"",
-    		"",
-    		"",
-    		"",
-    		"",
-    		""
-    		
-    		
-    		
-    		
+    		"","","","","","","","","","","","",""  		
     };
  
     // Constructor

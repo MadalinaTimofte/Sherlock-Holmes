@@ -44,21 +44,14 @@ public class PompeyLadFullScreenImageAdapter extends PagerAdapter {
 	
 	@Override
     public Object instantiateItem(ViewGroup container, int position) {
-       
- 
-        inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View viewLayout = inflater.inflate(R.layout.layout_fullscreen_image, container,
                 false);
- 
         ImageView imageView = (ImageView) viewLayout.findViewById(R.id.full_image);
         TextView textview = (TextView) viewLayout.findViewById(R.id.item_text);
-       
         imageView.setImageResource(mThumbIds[position]);
         textview.setText(description[position]);
-       
-      
-
-        ((ViewPager) container).addView(viewLayout,0);
+       ((ViewPager) container).addView(viewLayout,0);
  
         return viewLayout;
 	}

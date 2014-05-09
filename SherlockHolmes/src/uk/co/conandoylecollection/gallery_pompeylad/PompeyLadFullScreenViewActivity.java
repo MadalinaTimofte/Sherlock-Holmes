@@ -35,7 +35,8 @@ public class PompeyLadFullScreenViewActivity extends Activity{
 		 int position = i.getExtras().getInt("id");
 		
 	    PompeyLadImageAdapter image_adapter = new PompeyLadImageAdapter(PompeyLadFullScreenViewActivity.this);
-		adapter = new PompeyLadFullScreenImageAdapter(PompeyLadFullScreenViewActivity.this,image_adapter.getItem(position),image_adapter.getDescription(position),position);
+		adapter = new PompeyLadFullScreenImageAdapter(PompeyLadFullScreenViewActivity.this,image_adapter.getItem(position),
+				image_adapter.getDescription(position),position);
 		
 		viewPager.setAdapter(adapter);
 		
