@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sherlockholmes"
+    package="uk.co.conandoylecollection"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.sherlockholmes.main.MainActivity"
+            android:name="uk.co.conandoylecollection.main.SplashScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,23 +22,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.sherlockholmes.main_acd.MainActivity"/>
-        <activity android:name="com.example.sherlockholmes.articles_acd.ACDArticleActivity"/>
-        <activity android:name="com.example.sherlockholmes.articles_family.FamilyArticleActivity"/>
-        <activity android:name="com.example.sherlockholmes.articles_holmes.HolmesArticleActivity"/>
-        <activity android:name="com.example.sherlockholmes.articles_rlg.RLGArticleActivity"/>
-        <activity android:name="com.example.sherlockholmes.articles_spiritualism.SpiritualismArticleActivity"/>
-        <activity android:name="com.example.sherlockholmes.events.EventsActivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_pompeylad.PompeyGridLayoutActivity"/>
-         <activity android:name="com.example.sherlockholmes.gallery_pompeylad.PompeyFullScreenViewActivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_spiritualism.SpiritualismGridLayoutActivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_spiritualism.SpiritualismFullScreenViewActivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_sportingheroes.SportingHeroesGridLayoutAcitivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_sportingheroes.SportingHeroesFullScreenViewActivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_thelostworld.TheLostWorldGridLayoutActivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_thelostworld.TheLostWorldFullScreenViewActivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_ww1.WW1GridLayoutAcitivity"/>
-        <activity android:name="com.example.sherlockholmes.gallery_ww1.WW1FullScreenViewActivity"/>
+        <activity android:name="uk.co.conandoylecollection.main.MainActivity"/>
+        <activity android:name="uk.co.conandoylecollection.main_acd.MainActivity"/>
+        <activity android:name="uk.co.conandoylecollection.articles_acd.ACDArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.articles_family.FamilyArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.articles_holmes.HolmesArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.articles_rlg.RLGArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.articles_spiritualism.SpiritualismArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.events.EventsActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_pompeylad.PompeyLadGridLayoutActivity"/>
+         <activity android:name="uk.co.conandoylecollection.gallery_pompeylad.PompeyLadFullScreenViewActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_spiritualism.SpiritualismGridLayoutActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_spiritualism.SpiritualismFullScreenViewActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_sportingheroes.SportingHeroesGridLayoutActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_sportingheroes.SportingHeroesFullScreenViewActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_thelostworld.TheLostWorldGridLayoutActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_thelostworld.TheLostWorldFullScreenViewActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_ww1.WW1GridLayoutActivity"/>
+        <activity android:name="uk.co.conandoylecollection.gallery_ww1.WW1FullScreenViewActivity"/>
+        <activity android:name="uk.co.conandoylecollection.exhibitions.MainActivity"/>
         
         
         
