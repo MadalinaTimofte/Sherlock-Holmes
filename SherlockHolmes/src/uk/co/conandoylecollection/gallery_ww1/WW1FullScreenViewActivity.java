@@ -24,7 +24,7 @@ public class WW1FullScreenViewActivity extends Activity{
 		
 		  ActionBar actionBar = getActionBar();
 	        actionBar.setDisplayHomeAsUpEnabled(true);
-	        actionBar.setTitle("WW1");
+	        actionBar.setTitle("World War I");
 
 		viewPager = (ViewPager) findViewById(R.id.pager);
 

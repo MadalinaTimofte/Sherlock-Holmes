@@ -69,7 +69,6 @@ public class DashboardAdapter extends BaseAdapter {
 
             imageView.setImageResource(mThumbIds[position]);
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            row.setLayoutParams(new GridView.LayoutParams(200, 200));
             textViewTitle.setText(title[position]);
     	}
        

@@ -17,15 +17,15 @@ public class DashboardAdapter extends BaseAdapter {
  
     // Keep all Images in array
     private Integer[] mThumbIds = {
-            R.drawable.pompeylad_acd1_b_1_2_2, R.drawable.spiritualism_acd1_c_1_2_2,
-            R.drawable.sportingheroes_acd1_b_1_2_6,R.drawable.the_lost_world,
-            R.drawable.ww1_acd1_b_1_2_196
+            R.drawable.icon_pompeylad, R.drawable.icon_spiritual,
+            R.drawable.icon_sportingheroes,R.drawable.icon_thelostworld,
+            R.drawable.icon_worldwar1
           
             
     };
     
     private String[] title = {
-    		"PompeyLad","Spiritualism","Sporting Heroes","The Lost World","World War 1"
+    		"","","","",""
     };
     
   // Constructor
@@ -70,7 +70,6 @@ public class DashboardAdapter extends BaseAdapter {
 
             imageView.setImageResource(mThumbIds[position]);
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            row.setLayoutParams(new GridView.LayoutParams(200, 200));
             textViewTitle.setText(title[position]);
     	}
        

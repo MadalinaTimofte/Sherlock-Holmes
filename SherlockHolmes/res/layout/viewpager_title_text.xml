@@ -20,9 +20,10 @@
 		    android:id="@+id/pager_text"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:gravity="left"
-			android:textSize="15sp" 
-			android:layout_margin="30dp" />
+			style="?android:textAppearanceMedium"
+			 android:lineSpacingMultiplier="1.2"
+			android:gravity="left" 
+			android:layout_margin="20dp"/>
 
 </LinearLayout>
 </ScrollView>

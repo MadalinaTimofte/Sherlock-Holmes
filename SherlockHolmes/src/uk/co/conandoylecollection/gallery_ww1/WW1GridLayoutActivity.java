@@ -21,7 +21,7 @@ public class WW1GridLayoutActivity extends Activity {
         
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setTitle("WW1");
+        actionBar.setTitle("World War I");
  
         GridView gridView = (GridView) findViewById(R.id.grid_view);
  

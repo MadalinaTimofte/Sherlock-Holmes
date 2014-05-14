@@ -2,6 +2,8 @@ package uk.co.conandoylecollection.main;
 
 import uk.co.conandoylecollection.articles_rlg.RLGArticleActivity;
 import uk.co.conandoylecollection.events.EventsActivity;
+import uk.co.conandoylecollection.map.MapActivity;
+import uk.co.conandoylecollection.contact.ContactActivity;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
@@ -48,7 +50,14 @@ public class MainActivity extends Activity implements OnItemClickListener{
         	        case 3:  Intent newActivity3 = new Intent(this, EventsActivity.class);     
         	                  startActivity(newActivity3);
         	                  break;
-        	        
+        	                  
+        	        case 4: Intent newActivity4 = new Intent(this, MapActivity.class);     
+	                  startActivity(newActivity4);
+	                  break;
+	                  
+        	        case 5: Intent newActivity5 = new Intent(this, ContactActivity.class);     
+	                  startActivity(newActivity5);
+	                  break;
     
         }
         

@@ -41,14 +41,9 @@
         <activity android:name="uk.co.conandoylecollection.gallery_ww1.WW1GridLayoutActivity"/>
         <activity android:name="uk.co.conandoylecollection.gallery_ww1.WW1FullScreenViewActivity"/>
         <activity android:name="uk.co.conandoylecollection.exhibitions.MainActivity"/>
-        
-        
-        
-         
-        <!-- FullImageActivity -->
-       
-
-        
+        <activity android:name="uk.co.conandoylecollection.map.MapActivity"/>
+         <activity android:name="uk.co.conandoylecollection.contact.ContactActivity"/>
+           
     </application>
 
 </manifest>

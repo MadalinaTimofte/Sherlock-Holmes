@@ -8,7 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
  
@@ -18,12 +17,13 @@ public class DashboardAdapter extends BaseAdapter {
     // Keep all Images in array
     private Integer[] mThumbIds = {
             R.drawable.icon_acd, R.drawable.icon_rlg,
-            R.drawable.icon_exhibitions, R.drawable.icon_dramatisation
+            R.drawable.icon_exhibitions, R.drawable.icon_dramatisation,
+            R.drawable.icon_map, R.drawable.icon_contact
             
     };
     
     private String[] title = {
-    		"ACD","RLG","Exhibitions","Events"
+    		"Arthur Conan Doyle","Richard Lancelyn Green","Exhibitions","Events","Map","Contact"
     };
     
  
@@ -51,7 +51,7 @@ public class DashboardAdapter extends BaseAdapter {
     	return mThumbIds;
     	
     }
-    
+  
     public String[] getTitle(int position){
     	return title;
     }
@@ -69,7 +69,6 @@ public class DashboardAdapter extends BaseAdapter {
 
             imageView.setImageResource(mThumbIds[position]);
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            row.setLayoutParams(new GridView.LayoutParams(200, 200));
             textViewTitle.setText(title[position]);
     	}
        
