@@ -3,6 +3,7 @@ package uk.co.conandoylecollection.articles_acd;
 import uk.co.conandoylecollection.R;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,6 +24,9 @@ public class FirstPageFragment extends Fragment{
 	        title.setText("Introduction to Sir Arthur Conan Doyle");
 	        ImageView imageview = (ImageView)v.findViewById(R.id.pager_image);
 	        imageview.setImageResource(R.drawable.articles_conandoyle);
+	        TextView web_link = (TextView) v.findViewById(R.id.web_link);
+	        web_link.setText("http://www.conandoylecollection.co.uk/about-doyle-crime-who.html");
+	        Linkify.addLinks(web_link, Linkify.ALL);
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));
 	        return v;

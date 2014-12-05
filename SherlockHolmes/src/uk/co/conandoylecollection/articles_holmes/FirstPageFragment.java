@@ -1,14 +1,14 @@
 package uk.co.conandoylecollection.articles_holmes;
 
+import uk.co.conandoylecollection.R;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import uk.co.conandoylecollection.R;
 public class FirstPageFragment extends Fragment{
 	
 
@@ -21,8 +21,12 @@ public class FirstPageFragment extends Fragment{
 	        title.setText("Introduction to Sherlock Holmes");
 	        ImageView imageview = (ImageView)v.findViewById(R.id.pager_image);
 	        imageview.setImageResource(R.drawable.articles_sherlockbook);
+	        TextView web_link = (TextView) v.findViewById(R.id.web_link);
+	        web_link.setText("http://www.conandoylecollection.co.uk/about-doyle-sherlock-holmes.html");
+	        Linkify.addLinks(web_link, Linkify.ALL);
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));
+	       
 	      
 	        
 

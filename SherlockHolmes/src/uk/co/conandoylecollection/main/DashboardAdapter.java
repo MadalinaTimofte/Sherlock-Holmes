@@ -16,14 +16,14 @@ public class DashboardAdapter extends BaseAdapter {
  
     // Keep all Images in array
     private Integer[] mThumbIds = {
-            R.drawable.icon_acd, R.drawable.icon_rlg,
-            R.drawable.icon_exhibitions, R.drawable.icon_dramatisation,
+            R.drawable.icon_acd, R.drawable.icon_books,
+            R.drawable.icon_exhibitions,
             R.drawable.icon_map, R.drawable.icon_contact
             
     };
     
     private String[] title = {
-    		"Arthur Conan Doyle","Richard Lancelyn Green","Exhibitions","Events","Map","Contact"
+    		"Arthur Conan Doyle","About Collection","Exhibitions","Map","Contact"
     };
     
  

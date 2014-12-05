@@ -1,9 +1,9 @@
 package uk.co.conandoylecollection.main_acd;
 
 import uk.co.conandoylecollection.articles_acd.ACDArticleActivity;
-import uk.co.conandoylecollection.articles_family.FamilyArticleActivity;
+
 import uk.co.conandoylecollection.articles_holmes.HolmesArticleActivity;
-import uk.co.conandoylecollection.articles_spiritualism.SpiritualismArticleActivity;
+
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -46,12 +46,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
         	         case 1:  Intent newActivity1 = new Intent(this, HolmesArticleActivity.class);     
         	                  startActivity(newActivity1);
         	                  break;
-        	         case 2:  Intent newActivity2 = new Intent(this, FamilyArticleActivity.class);     
-        	                  startActivity(newActivity2);
-        	                  break;
-        	         case 3:  Intent newActivity3 = new Intent(this, SpiritualismArticleActivity.class);     
-        	                  startActivity(newActivity3);
-        	                  break;
+        	        
         	        }
          
         }

@@ -36,8 +36,15 @@
 			style="?android:textAppearanceMedium"
 			 android:lineSpacingMultiplier="1.2"
 			android:gravity="left"
+			/>
 			
-			
+			<TextView 
+			 android:id="@+id/web_link"   
+			 android:layout_width="match_parent"
+   			 android:layout_height="wrap_content"
+   			 style="?android:textAppearanceMedium"
+			 android:lineSpacingMultiplier="1.2"
+			 android:gravity="left"
 			/>
  
 	</LinearLayout>

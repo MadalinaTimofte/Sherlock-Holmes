@@ -4,7 +4,7 @@ import uk.co.conandoylecollection.gallery_pompeylad.PompeyLadGridLayoutActivity;
 import uk.co.conandoylecollection.gallery_spiritualism.SpiritualismGridLayoutActivity;
 import uk.co.conandoylecollection.gallery_sportingheroes.SportingHeroesGridLayoutActivity;
 import uk.co.conandoylecollection.gallery_thelostworld.TheLostWorldGridLayoutActivity;
-import uk.co.conandoylecollection.gallery_ww1.WW1GridLayoutActivity;
+
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.exhibitions);
         
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
@@ -58,10 +58,6 @@ public class MainActivity extends Activity implements OnItemClickListener{
         	                  break;
         	         case 3:  Intent newActivity3 = new Intent(this, TheLostWorldGridLayoutActivity.class);     
         	                  startActivity(newActivity3);
-        	                 
-        	                  break;
-        	         case 4:  Intent newActivity4 = new Intent(this, WW1GridLayoutActivity.class);     
-        	                  startActivity(newActivity4);
         	                 
         	                  break; 
         	        } 

@@ -26,9 +26,9 @@
        
        <!-- Actions -->
         <string name="action_previous">Previous</string>
-    
+        <string name="action_next">Next</string>
     	<string name="action_finish">Finish</string>
-    		<string name="action_next">Next</string>
+    		
     		<string name="textMap">Getting to the Collection</string>
     		<string name="textLine">The archive is within the Central Library, Guildhall Square, Portsmouth, in the Portsmouth History Centre, on the second floor </string>
 </resources>

@@ -25,11 +25,12 @@
         <activity android:name="uk.co.conandoylecollection.main.MainActivity"/>
         <activity android:name="uk.co.conandoylecollection.main_acd.MainActivity"/>
         <activity android:name="uk.co.conandoylecollection.articles_acd.ACDArticleActivity"/>
-        <activity android:name="uk.co.conandoylecollection.articles_family.FamilyArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.articles_holmes.HolmesArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.articles_aboutcollection.CollectionArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.articles_rlg.RLGArticleActivity"/>
-        <activity android:name="uk.co.conandoylecollection.articles_spiritualism.SpiritualismArticleActivity"/>
-        <activity android:name="uk.co.conandoylecollection.events.EventsActivity"/>
+        <activity android:name="uk.co.conandoylecollection.articles_sharingproject.SharingArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.main_aboutCollection.MainActivity"/>
+        <activity android:name="uk.co.conandoylecollection.articles_aboutexhibitions.AboutExhibitionsArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.gallery_pompeylad.PompeyLadGridLayoutActivity"/>
          <activity android:name="uk.co.conandoylecollection.gallery_pompeylad.PompeyLadFullScreenViewActivity"/>
         <activity android:name="uk.co.conandoylecollection.gallery_spiritualism.SpiritualismGridLayoutActivity"/>

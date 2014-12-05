@@ -1,14 +1,12 @@
 package uk.co.conandoylecollection.main_acd;
 
 import uk.co.conandoylecollection.R;
-
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
  
@@ -17,14 +15,11 @@ public class DashboardAdapter extends BaseAdapter {
  
     // Keep all Images in array
     private Integer[] mThumbIds = {
-            R.drawable.icon_conan_doyle, R.drawable.icon_sherlock,
-            R.drawable.icon_family_1,R.drawable.icon_spiritualism
-          
-            
+            R.drawable.icon_conan_doyle, R.drawable.icon_sherlock        
     };
     
     private String[] title = {
-    		"Conan Doyle","Sherlock Holmes","Conan Doyle Family","Spiritualism"
+    		"Conan Doyle","Sherlock Holmes"
     };
     
   // Constructor

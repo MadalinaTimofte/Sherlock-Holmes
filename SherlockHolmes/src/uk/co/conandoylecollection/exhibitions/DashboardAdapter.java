@@ -18,14 +18,13 @@ public class DashboardAdapter extends BaseAdapter {
     // Keep all Images in array
     private Integer[] mThumbIds = {
             R.drawable.icon_pompeylad, R.drawable.icon_spiritual,
-            R.drawable.icon_sportingheroes,R.drawable.icon_thelostworld,
-            R.drawable.icon_worldwar1
+            R.drawable.icon_sportingheroes,R.drawable.icon_thelostworld
           
             
     };
     
     private String[] title = {
-    		"","","","",""
+    		"","","",""
     };
     
   // Constructor

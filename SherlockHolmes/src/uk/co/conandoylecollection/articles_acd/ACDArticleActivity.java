@@ -49,45 +49,20 @@ public class ACDArticleActivity extends FragmentActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
-        getMenuInflater().inflate(R.menu.activity_screen_slide, menu);
-
-        menu.findItem(R.id.action_previous).setEnabled(mPager.getCurrentItem() > 0);
-
-        // Add either a "next" or "finish" button to the action bar, depending on which page
-        // is currently selected.
-        MenuItem item = menu.add(Menu.NONE, R.id.action_next, Menu.NONE,
-                (mPager.getCurrentItem() == pagerAdapter.getCount() - 1)
-                        ? R.string.action_finish
-                        : R.string.action_next);
-        item.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-      
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case android.R.id.home:
-                // Navigate "up" the demo structure to the launchpad activity.
-                NavUtils.navigateUpTo(this, new Intent(this, MainActivity.class));
-                return true;
-
-            case R.id.action_previous:
-                // Go to the previous step in the wizard. If there is no previous step,
-                // setCurrentItem will do nothing.
-                mPager.setCurrentItem(mPager.getCurrentItem() - 1);
-                return true;
-
-            case R.id.action_next:
-                // Advance to the next step in the wizard. If there is no next step, setCurrentItem
-                // will do nothing.
-                mPager.setCurrentItem(mPager.getCurrentItem() + 1);
-                
+          case android.R.id.home:
+              // Navigate "up" the demo structure to the launchpad activity.
+               NavUtils.navigateUpTo(this, new Intent(this, MainActivity.class));
                 return true;
            
         }
 
-        return super.onOptionsItemSelected(item);
+       return super.onOptionsItemSelected(item);
     }
     
     
@@ -101,15 +76,41 @@ public class ACDArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
-            case 0: return FirstPageFragment.newInstance("Arthur Conan Doyle was born in Edinburgh on May 22nd 1859. He described his early years as ‘happy’ spending his days acting out historical adventures and battles, or else endlessly pestering his mother and father with questions about science, history, and books.\n\n From the age of 9 he was educated at Stonyhurst, an austere Jesuit boarding school in the north of England, where the familiar public-school curriculum of algebra and classics was enforced through harsh discipline.\n\n Conan Doyle, it is said, was disciplined more than most because of his outspoken nature and hot temper.At Stonyhurst, Conan Doyle was an enthusiastic sportsman, excelling at cricket in particular.\n\n He also discovered an ability to write and tell extravagant stories, which his uncle, Richard, encouraged by taking the young Arthur to see plays in London, including Hamlet, featured Henry Irving, the greatest and most famous actor of the age.");
-            case 1: return SecondPageFragment.newInstance("After leaving school, Conan Doyle trained as a doctor at the University of Edinburgh from 1876 to 1881, during which time his fellow students included J. M. Barrie (who later wrote Peter Pan) and Robert Louis Stevenson, author of Treasure Island and Dr Jeckyll and Mr Hyde.\n\n He also became friends with Dr Joseph Bell, one of the University tutors, a man well known for his method of deducing information about people and their lives through simple acts of observation and deduction: he would study the dirt on their shoes, the condition of their clothes, or the cleanliness of their fingernails, for example.\n\n This was exactly the detective method that Conan Doyle later attributed to his great detective, Sherlock Holmes, as he himself later acknowledged ‘It is no wonder that after the study of such a character, I used and amplified his methods when…I tried to build up a scientific detective who solves cases on his own merits and not through the folly of the criminal.'");
+            case 0: return FirstPageFragment.newInstance("Arthur Conan Doyle was born in Edinburgh on May 22nd 1859, the eldest son of 9. Educated at Stonyhurst , " +
+            		"an austere Jesuit boarding school in the north of England he discovered an ability to write and tell extravagant stories.\n\n" +
+            		"Conan Doyle trained as a doctor at the University of Edinburgh where fellow students included J.M.Barrie and Robert Louis Stevenson." +
+            		"He also became friends with Dr Joseph Bell, a man well known for his method of deducting information about people" +
+            		"and their lives through simple acts of observation and deduction - the influence which led to the creation of his greatest detective, Sherlock Holmes.\n\n" +
+            		"The life of Sir Arthur Conan Doyle illustrates the excitement and diversity of the Victorian period as much as that of any other figure of this period.\n\n" +
+            		"Over his life he was:\n" +
+            		"• A surgeon on a whaling ship\n" +
+            		"• A GP\n" +
+            		"• An apprentice eye-surgeon\n" +
+            		"• An unsuccesful parliamentary candidate (twice)\n" +
+            		"• A multi-talented sportman\n" +
+            		"• Behind the development of recreational skiing in Switzerland\n" +
+            		"• A formidable public speaker\n" +
+            		"• A campaigner against miscarriages of justice\n" +
+            		"• The head of an extraordinary family\n" +
+            		"• A succesful author\n" +
+            		"• An outspoken proponent of spiritualism\n\n" +
+            		"In his autobiography, he wrote: 'I have had a life which, for variety and romance, could I think , hardly be exceeded.'\n\n" +
+            		"The Portsmouth connection\n\n" +
+            		"Doyle arrived in Portsmouth in 1882 and set up a GP surgery in Elm Grove, Southsea." +
+            		"He threw himself into the life of town joining the Portsmouth Literacy and Scientific Society," +
+            		"and giving public talks on Edward Gibbon, Thomas Carlyle, and George Meredith, among others.\n\n" +
+            		"He also played for the local cricket and bowls teams, and was the first goalkeeper for the team that became Portsmouth Football Club." +
+            		"It was in Southsea he began his writing career with short stories, historical novels including Micah Clarke" +
+            		"and the first two Sherlock Holmes tales, A Study in Scarlet and The Sign of Four. \n\n" +
+            		"Find out more about Arthur Conan Doyle:");
+            
             default: return null;
             }
         }
 
-        @Override
-        public int getCount() {
-            return 2;
-        }       
+       @Override
+       public int getCount() {
+            return 1;
+       }       
     }
 }

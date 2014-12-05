@@ -59,28 +59,6 @@
        android:layout_marginLeft="20dp"
        android:layout_marginRight="20dp"
         />
-     
-        <TextView
-        android:id="@+id/textLine3"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:text="Opening times"
-        android:textStyle="bold"
-        android:layout_margin="20dp"
-        />
-         
-        <TextView
-        android:id="@+id/textLine4"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:textSize="16sp"
-        android:text="Monday: 10am to 7pm\nTuesday and Wednesday: 9am to 7pm\nThursday: 9am to 5pm\nFriday: Closed\nSaturday: 10am to 3pm (No research support on Saturdays)\nSunday: Closed"
-		android:layout_marginLeft="20dp"
-		 android:layout_marginRight="20dp"			  
-        />
         
         <TextView
         android:id="@+id/textLine5"
@@ -128,7 +106,7 @@
         />
         
          <TextView
-        android:id="@+id/textLine8"
+        android:id="@+id/textLine9"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -139,7 +117,7 @@
         />
          
          <TextView
-        android:id="@+id/textLine9"
+        android:id="@+id/textLine10"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
@@ -151,7 +129,7 @@
         />
          
          <TextView
-        android:id="@+id/textLine10"
+        android:id="@+id/textLine11"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -162,7 +140,7 @@
         />
          
          <TextView
-        android:id="@+id/textLine11"
+        android:id="@+id/textLine12"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
@@ -174,7 +152,7 @@
         />
          
          <TextView
-        android:id="@+id/textLine12"
+        android:id="@+id/textLine13"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -185,7 +163,7 @@
         />
         
          <TextView
-        android:id="@+id/textLine11"
+        android:id="@+id/textLine14"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
