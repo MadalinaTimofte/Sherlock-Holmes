@@ -2,7 +2,6 @@ package uk.co.conandoylecollection.main_aboutCollection;
 
 import uk.co.conandoylecollection.R;
 import uk.co.conandoylecollection.articles_aboutcollection.CollectionArticleActivity;
-import uk.co.conandoylecollection.articles_aboutexhibitions.AboutExhibitionsArticleActivity;
 import uk.co.conandoylecollection.articles_rlg.RLGArticleActivity;
 import uk.co.conandoylecollection.articles_sharingproject.SharingArticleActivity;
 import android.app.ActionBar;
@@ -50,9 +49,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
         	        case 2:  Intent newActivity2 = new Intent(this, SharingArticleActivity.class);     
 	                  startActivity(newActivity2);
 	                  
-        	        case 3: Intent newActivity3 = new Intent(this, AboutExhibitionsArticleActivity.class);     
-	                  startActivity(newActivity3);  
-	                  break;
+        	       
         	        }
          
         }

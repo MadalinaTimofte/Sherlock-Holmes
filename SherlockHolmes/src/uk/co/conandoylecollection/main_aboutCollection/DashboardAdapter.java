@@ -16,11 +16,11 @@ public class DashboardAdapter extends BaseAdapter {
     // Keep all Images in array
     private Integer[] mThumbIds = {
     		R.drawable.icon_aboutcoll, R.drawable.icon_rlg, 
-    		R.drawable.icon_project, R.drawable.icon_aboutex 
+    		R.drawable.icon_project
            };
     
     private String[] title = {
-    		"","","",""
+    		"","",""
     };
     
   // Constructor
