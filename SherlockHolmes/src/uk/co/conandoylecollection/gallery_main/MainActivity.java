@@ -27,7 +27,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.exhibitions);
+        setContentView(R.layout.gallery);
         
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);

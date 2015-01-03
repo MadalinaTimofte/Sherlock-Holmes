@@ -31,6 +31,8 @@
         <activity android:name="uk.co.conandoylecollection.articles_sharingproject.SharingArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.main_aboutCollection.MainActivity"/>
         <activity android:name="uk.co.conandoylecollection.gallery_main.MainActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_agoodsport.AGoodSportArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_thepompeylad.ThePompeyLadArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.exhibitions.ExhibitionMainActivity"/>
         <activity android:name="uk.co.conandoylecollection.articles_aboutexhibitions.AboutExhibitionsArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.gallery_acd.ACDGridLayoutActivity"/>

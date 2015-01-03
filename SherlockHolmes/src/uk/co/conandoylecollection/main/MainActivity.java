@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
         	                  startActivity(newActivity1);
         	                  break;
         	                  
-        	         case 2:  Intent newActivity2 = new Intent(this, uk.co.conandoylecollection.exhibitions.ExhibitionMainActivity.class);     
+        	         case 2:  Intent newActivity2 = new Intent(this, uk.co.conandoylecollection.exhibitions.MainActivity.class);     
         	                  startActivity(newActivity2);
         	                  break;
         	       

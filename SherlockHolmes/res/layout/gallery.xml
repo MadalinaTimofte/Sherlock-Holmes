@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="match_parent"
+    		android:layout_height="wrap_content" 
+    		android:orientation="vertical"
+    		android:padding="16dp">
+    		
+           <TextView
+            android:id="@+id/textLine1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="?android:textAppearanceLarge"
+			android:lineSpacingMultiplier="1.2"
+			android:gravity="center"
+	        android:text= "Gallery"
+	        android:layout_marginBottom="16dp"/>
+           
+           <TextView
+	        android:id="@+id/textLine2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="?android:textAppearanceMedium"
+			android:lineSpacingMultiplier="1.2"
+			android:gravity="left"
+	        android:text="Working with schools and community groups in Portsmouth we have created a number of exhibitions based upon Sherlock Holmes and his adventures. Find out more about Sherlock Holmes and the Arthur Conan Doyle Collection :"
+         />
+			
+			<TextView 
+			 android:id="@+id/web_link"   
+   			  android:layout_width="match_parent"
+   			 android:layout_height="wrap_content"
+   			 style="?android:textAppearanceMedium"
+			 android:lineSpacingMultiplier="1.2"
+			 android:gravity="left"
+   			 android:text = "http://www.conandoylecollection.co.uk/index.html"
+   			android:autoLink="web"
+   			android:linksClickable="true"
+			/>
+<GridView 
+    android:id="@+id/grid_view"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:numColumns="auto_fit"
+    android:columnWidth="100dp"
+    android:horizontalSpacing="20dp"
+    android:verticalSpacing="0dp"
+    android:layout_gravity="center"
+    android:stretchMode="columnWidth" >  
+ 
+</GridView>
+</LinearLayout>
