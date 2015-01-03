@@ -33,6 +33,13 @@
         <activity android:name="uk.co.conandoylecollection.gallery_main.MainActivity"/>
         <activity android:name="uk.co.conandoylecollection.ex_articles_agoodsport.AGoodSportArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.ex_articles_thepompeylad.ThePompeyLadArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_stitchingastory.StitchingAStoryArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_thelostworld.TheLostWorldArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_studyforsherlock.AStudyForSherlockArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_cottingleyfairies.TheCottingleyFairiesArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_grippingyarns.GrippingYarnsArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_catchathief.ToCatchAThiefArticleActivity"/>
+        <activity android:name="uk.co.conandoylecollection.ex_articles_playingsherlock.PlayingSherlockHolmesArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.exhibitions.ExhibitionMainActivity"/>
         <activity android:name="uk.co.conandoylecollection.articles_aboutexhibitions.AboutExhibitionsArticleActivity"/>
         <activity android:name="uk.co.conandoylecollection.gallery_acd.ACDGridLayoutActivity"/>

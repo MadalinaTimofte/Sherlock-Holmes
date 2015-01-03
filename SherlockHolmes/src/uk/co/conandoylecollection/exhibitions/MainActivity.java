@@ -2,6 +2,13 @@ package uk.co.conandoylecollection.exhibitions;
 
 import uk.co.conandoylecollection.R;
 import uk.co.conandoylecollection.ex_articles_agoodsport.AGoodSportArticleActivity;
+import uk.co.conandoylecollection.ex_articles_catchathief.ToCatchAThiefArticleActivity;
+import uk.co.conandoylecollection.ex_articles_cottingleyfairies.TheCottingleyFairiesArticleActivity;
+import uk.co.conandoylecollection.ex_articles_grippingyarns.GrippingYarnsArticleActivity;
+import uk.co.conandoylecollection.ex_articles_playingsherlock.PlayingSherlockHolmesArticleActivity;
+import uk.co.conandoylecollection.ex_articles_stitchingastory.StitchingAStoryArticleActivity;
+import uk.co.conandoylecollection.ex_articles_studyforsherlock.AStudyForSherlockArticleActivity;
+import uk.co.conandoylecollection.ex_articles_thelostworld.TheLostWorldArticleActivity;
 import uk.co.conandoylecollection.ex_articles_thepompeylad.ThePompeyLadArticleActivity;
 import android.app.ActionBar;
 import android.app.Activity;
@@ -47,7 +54,40 @@ public class MainActivity extends Activity implements OnItemClickListener{
         	                  startActivity(newActivity1);
         	                
         	                  break;
-        	        
+        	         case 2:  Intent newActivity2 = new Intent(this, StitchingAStoryArticleActivity.class);     
+	                          startActivity(newActivity2);
+	                
+	                          break;   
+	                          
+        	         case 3:  Intent newActivity3 = new Intent(this, TheLostWorldArticleActivity.class);     
+                              startActivity(newActivity3);
+           
+                     break;    
+	                        
+        	         case 4:  Intent newActivity4 = new Intent(this, AStudyForSherlockArticleActivity.class);     
+                              startActivity(newActivity4);
+           
+                     break;
+                     
+        	         case 5:  Intent newActivity5 = new Intent(this, TheCottingleyFairiesArticleActivity.class);     
+                              startActivity(newActivity5);
+           
+                     break;
+                     
+        	         case 6:  Intent newActivity6 = new Intent(this, GrippingYarnsArticleActivity.class);     
+                              startActivity(newActivity6);
+           
+                     break;
+                     
+        	         case 7:  Intent newActivity7 = new Intent(this, ToCatchAThiefArticleActivity.class);     
+                              startActivity(newActivity7);
+           
+                     break;
+                     
+        	         case 8:  Intent newActivity8 = new Intent(this, PlayingSherlockHolmesArticleActivity.class);     
+                              startActivity(newActivity8);
+           
+                     break;
         	        } 
          
         	    	 
