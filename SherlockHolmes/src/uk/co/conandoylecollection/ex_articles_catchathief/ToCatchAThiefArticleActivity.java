@@ -56,7 +56,7 @@ public class ToCatchAThiefArticleActivity extends FragmentActivity {
         switch (item.getItemId()) {
           case android.R.id.home:
               // Navigate "up" the demo structure to the launchpad activity.
-               NavUtils.navigateUpTo(this, new Intent(this, uk.co.conandoylecollection.exhibitions.MainActivity.class));
+               NavUtils.navigateUpTo(this, new Intent(this, uk.co.conandoylecollection.exhibitions.ListActivity.class));
                 return true;
            
         }

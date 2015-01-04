@@ -40,18 +40,14 @@
 			android:gravity="center"
 	        android:text= "List of Exhibitions"
 	        android:layout_marginBottom="16dp"/>
-          	
-		<GridView 
-		    android:id="@+id/grid_view"
-		    android:layout_width="wrap_content"
-		   android:layout_height="wrap_content"
-		    android:numColumns="auto_fit"
-		    android:columnWidth="100dp"
-		    android:horizontalSpacing="20dp"
-		    android:verticalSpacing="0dp"
-		    android:layout_gravity="center"
-		    android:stretchMode="columnWidth" />  
- 
+   
+		<ImageView 
+		    android:name="@+id/image"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:src="@drawable/icon_acd"
+		    android:scaleType="center"
+		    />
 
   </LinearLayout>
     
