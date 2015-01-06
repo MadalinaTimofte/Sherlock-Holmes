@@ -27,8 +27,8 @@ public class MainActivity extends Activity  {
 
             public void onClick(View v) {
 
-            Intent intent = new Intent(uk.co.conandoylecollection.exhibitions.MainActivity.this, uk.co.conandoylecollection.exhibitions.ListActivity.class);
-            startActivityForResult(intent,0);
+            Intent intent = new Intent(v.getContext(), uk.co.conandoylecollection.exhibitions.ListActivity.class);
+            startActivity(intent);
             }
       });
 
