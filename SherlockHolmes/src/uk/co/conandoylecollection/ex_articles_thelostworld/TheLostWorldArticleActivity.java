@@ -13,6 +13,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * The Lost World article found inside Exhibitions section.
+ */
 public class TheLostWorldArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -75,6 +78,9 @@ public class TheLostWorldArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit text of the article here.
+             */
             case 0: return FirstPageFragment.newInstance(" The Lost World is a bold and imaginative account of an expedition to the Amazon basin, led by Professor Challenger " +
             		"(the first of four books featuring this huge and bearded, unruly figure).\n\n " +
             		"A group of young people from Portsmouth Autism Support Network (PASN) created their own interpretation of The Lost World, using 2D stop-motion animation " +

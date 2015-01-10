@@ -11,6 +11,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
  
+/*
+ * Class creating thumbnails for exhibitions list found inside Exhibitions section.
+ */
 public class DashboardAdapter extends BaseAdapter {
     private Context mContext;
  

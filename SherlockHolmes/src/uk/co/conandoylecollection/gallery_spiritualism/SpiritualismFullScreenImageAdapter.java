@@ -12,6 +12,9 @@ import android.widget.TextView;
 
 import uk.co.conandoylecollection.R;
 
+/*
+ * The full screen layout is created.
+ */
 public class SpiritualismFullScreenImageAdapter extends PagerAdapter {
 
 	private Activity context;
@@ -55,9 +58,6 @@ public class SpiritualismFullScreenImageAdapter extends PagerAdapter {
        
         imageView.setImageResource(mThumbIds[position]);
         textview.setText(description[position]);
-       
-      
-
         ((ViewPager) container).addView(viewLayout,0);
  
         return viewLayout;

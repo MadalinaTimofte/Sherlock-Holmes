@@ -17,6 +17,9 @@ import android.widget.GridView;
 
 import uk.co.conandoylecollection.R;
 
+/*
+ * The gallery page is created.
+ */
 public class MainActivity extends Activity implements OnItemClickListener{
 	
 	GridView gridview;

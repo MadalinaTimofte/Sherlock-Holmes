@@ -12,6 +12,9 @@ import android.widget.TextView;
 
 import uk.co.conandoylecollection.R;
 
+/*
+ * The full screen image layout is created.
+ */
 public class ACDFullScreenImageAdapter extends PagerAdapter {
 
 	private Activity context;

@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.gallery_spiritualism;
 
-
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +9,9 @@ import android.widget.ImageView;
 
 import uk.co.conandoylecollection.R;
 
+/*
+ * The image with description is created.
+ */
 public class SpiritualismImageAdapter extends BaseAdapter {
     private Context mContext;
  

@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.ex_articles_thepompeylad;
 
-
 import uk.co.conandoylecollection.R;
 import android.app.ActionBar;
 import android.content.Intent;
@@ -13,6 +12,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * The Conan Doyle - The Pompey Lad article found inside Exhibitions article.
+ */
 public class ThePompeyLadArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -75,6 +77,9 @@ public class ThePompeyLadArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit text of article here.
+             */
             case 0: return FirstPageFragment.newInstance("Arthur Conan Doyle lived in Southsea when he wrote the first" +
             		" two Sherlock stories A Study in Scarlet and The Sign of Four.\n\n" +
             		"Conan Doyle threw himself into the life of the town. He joined the Portsmouth Literary and Scientific Society," +

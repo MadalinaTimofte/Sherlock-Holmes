@@ -11,6 +11,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
  
+/*
+ * The main interface icons are arranged.
+ */
 public class DashboardAdapter extends BaseAdapter {
     private Context mContext;
  
@@ -63,11 +66,8 @@ public class DashboardAdapter extends BaseAdapter {
     	if(row==null){
     		LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
             row = inflater.inflate(R.layout.grid_row, parent, false);
-
-
             TextView textViewTitle = (TextView) row.findViewById(R.id.textView);
             ImageView imageView = (ImageView) row.findViewById(R.id.imageView);
-
             imageView.setImageResource(mThumbIds[position]);
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             textViewTitle.setText(title[position]);

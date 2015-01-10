@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.ex_articles_cottingleyfairies;
 
-
 import uk.co.conandoylecollection.R;
 import android.app.ActionBar;
 import android.content.Intent;
@@ -13,6 +12,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * The Cottingley Fairies article found inside Exhibitions section.
+ */
 public class TheCottingleyFairiesArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -75,6 +77,9 @@ public class TheCottingleyFairiesArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit text of the article here.
+             */
             case 0: return FirstPageFragment.newInstance("In the summer of 1917, in leafy Cottingley Glen near Shipley in West Yorkshire, Elsie Wright aged 16," +
             		" and her cousin Frances Griffiths aged 9, claimed to have taken photographs of fairies. The photographs showed the fairies flying around the glen " +
             		"in the company of the girls.\n\n" +

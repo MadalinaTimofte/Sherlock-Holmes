@@ -10,16 +10,16 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/*
+ * The layout of the article with content:text, image and web link.
+ */
 public class FirstPageFragment extends Fragment{
-	
-	
 	
 	 @Override
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		 
 
 		 	View v = inflater.inflate(R.layout.viewpager_title_image_text, container, false);
-
 	        TextView title = (TextView) v.findViewById(R.id.pager_title);
 	        title.setText("The Cottingley Fairies");
 	        ImageView imageview = (ImageView)v.findViewById(R.id.pager_image);

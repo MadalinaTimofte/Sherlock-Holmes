@@ -10,6 +10,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
  
+/*
+ * Arrange the icons from ACD section.
+ */
 public class DashboardAdapter extends BaseAdapter {
     private Context mContext;
  

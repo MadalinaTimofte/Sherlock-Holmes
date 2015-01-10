@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+/*
+ * The layout of the second page and the content types: text and web link.
+ */
 public class SecondPageFragment extends Fragment{
 	
 	

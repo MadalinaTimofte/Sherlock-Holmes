@@ -13,6 +13,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * The Conan Doyle - A Good Sport article found inside Exhibitions section.
+ */
 public class AGoodSportArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -75,6 +78,9 @@ public class AGoodSportArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit here the text of the article.
+             */
             case 0: return FirstPageFragment.newInstance("Loewood House, a day care service for adults with learning " +
                                                          "and physical disabilities, put together an exhibition to celebrate Arthur Conan Doyle's sporting prowess.\n\n" +
             		                                     "Cricket and football may have been his favoured sports, but Doyle was also proficient and enthusiastic about rugby," +

@@ -10,6 +10,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
  
+/*
+ * Arrange the About Collection icons.
+ */
 public class DashboardAdapter extends BaseAdapter {
     private Context mContext;
  

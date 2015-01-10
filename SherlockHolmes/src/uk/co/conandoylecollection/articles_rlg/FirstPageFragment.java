@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import uk.co.conandoylecollection.R;
 
+/*
+ * The layout of the article with content:text, image and web link.
+ */
 public class FirstPageFragment extends Fragment{
 	
 	

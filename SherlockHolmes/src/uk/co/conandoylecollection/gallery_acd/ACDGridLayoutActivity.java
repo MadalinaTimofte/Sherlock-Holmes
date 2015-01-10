@@ -13,7 +13,9 @@ import android.widget.GridView;
 
 import uk.co.conandoylecollection.R;
 
-
+/*
+ * The gridlist with the images is showed.
+ */
 public class ACDGridLayoutActivity extends Activity {
 	 
     @Override

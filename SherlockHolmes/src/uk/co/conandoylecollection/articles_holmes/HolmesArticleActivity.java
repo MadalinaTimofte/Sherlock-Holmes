@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.articles_holmes;
 
-
 import uk.co.conandoylecollection.R;
 import uk.co.conandoylecollection.main_acd.MainActivity;
 import android.app.ActionBar;
@@ -15,6 +14,10 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
+
+/*
+ * The Introdcution to Sherlock Holmes article found inside ACD section.
+ */
 public class HolmesArticleActivity extends FragmentActivity {
 
 	private ViewPager mPager;
@@ -74,6 +77,10 @@ public class HolmesArticleActivity extends FragmentActivity {
         @Override
         public Fragment getItem(int pos) {
             switch(pos) {
+            
+            /*
+             * Edit the text of the article here.
+             */
             case 0: return FirstPageFragment.newInstance("Detective fiction was a relatively new genre of writing when Sir Arthur Conan Doyle first " +
             		"started writing. The genre emerged through the short stories of Edgar Allan Poe but it was Conan Doyle " +
             		"who firmly established detective fiction as perhaps the most popular genre of all.\n\n A Study in Scarlet\n\n " +

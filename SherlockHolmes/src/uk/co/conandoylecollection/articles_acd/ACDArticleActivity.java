@@ -14,6 +14,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * Introduction to Sir Arthur Conan Doyle article found inside ACD section.
+ */
 public class ACDArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -75,7 +78,10 @@ public class ACDArticleActivity extends FragmentActivity {
         @Override
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
-
+            
+            /*
+             * Edit the page of the article here.
+             */
             case 0: return FirstPageFragment.newInstance("Arthur Conan Doyle was born in Edinburgh on May 22nd 1859, the eldest son of 9. Educated at Stonyhurst , " +
             		"an austere Jesuit boarding school in the north of England he discovered an ability to write and tell extravagant stories.\n\n" +
             		"Conan Doyle trained as a doctor at the University of Edinburgh where fellow students included J.M.Barrie and Robert Louis Stevenson." +

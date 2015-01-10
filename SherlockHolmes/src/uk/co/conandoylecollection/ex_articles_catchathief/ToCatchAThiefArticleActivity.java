@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.ex_articles_catchathief;
 
-
 import uk.co.conandoylecollection.R;
 import android.app.ActionBar;
 import android.content.Intent;
@@ -13,6 +12,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * The To Catch a Thief article found inside Exhibitions section.
+ */
 public class ToCatchAThiefArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -75,6 +77,9 @@ public class ToCatchAThiefArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit here the text of the article.
+             */
             case 0: return FirstPageFragment.newInstance("In Arthur Conan Doyle’s story Charles Augustus Milverton, Sherlock Holmes and Dr Watson, equipped" + 
 														"with a ‘first-class, up-to-date burgling kit’, are doing a " +
 														"spot of house-breaking. They are looking for documents"+

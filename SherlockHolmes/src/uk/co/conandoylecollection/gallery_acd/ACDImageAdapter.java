@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.gallery_acd;
 
-
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +9,9 @@ import android.widget.ImageView;
 
 import uk.co.conandoylecollection.R;
 
+/*
+ * The grid layout is created.
+ */
 public class ACDImageAdapter extends BaseAdapter {
     private Context mContext;
  

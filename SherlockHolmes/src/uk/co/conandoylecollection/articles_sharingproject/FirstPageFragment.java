@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+/*
+ * The layout of the article with content:text and web link.
+ */
 public class FirstPageFragment extends Fragment{
 	
 	

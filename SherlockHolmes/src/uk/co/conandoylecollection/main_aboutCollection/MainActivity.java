@@ -14,6 +14,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
+
+/*
+ * Access the icons from About Collection section.
+ */
 public class MainActivity extends Activity implements OnItemClickListener{
 	
 	GridView gridview;

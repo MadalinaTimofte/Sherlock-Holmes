@@ -31,18 +31,11 @@
 	        android:text="These online exhibitions form part of the Sharing Sherlock: The Story of a Pompey Lad about Sir Arthur Conan Doyle. Based upon the touring exhibitions created with local schools and groups, this online exhibition provides a glimpse into the world of Sir Arthur Conan Doyle as portrayed in the Sir Arthur Conan Doyle collection of first editions of books, related letters, film and television memorabilia bequeathed to Portsmouth by Richard Lancelyn Green.\n\nIt was in Portsmouth that Sir Arthur Conan Doyle introduced his most famous creation, Sherlock Holmes, when he published his first story A Study in Scarlet. \n\nThese exhibitions celebrate the life and work of one of Portsmouth's most celebrated residents.\n"
          />
 			
-		 <TextView
-            android:id="@+id/textLine3"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			style="?android:textAppearanceLarge"
-			android:lineSpacingMultiplier="1.2"
-			android:gravity="center"
-	        android:text= "List of Exhibitions"
-	        android:layout_marginBottom="16dp"/>
+		
    
 		<ImageView 
-		    android:name="@+id/image"
+		    android:name="@+id/ivClick"
+		    android:clickable="true"
 		    android:layout_width="100dp"
 		    android:layout_height="100dp"
 		    android:src="@drawable/icon_acd"

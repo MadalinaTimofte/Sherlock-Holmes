@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.ex_articles_grippingyarns;
 
-
 import uk.co.conandoylecollection.R;
 import android.app.ActionBar;
 import android.content.Intent;
@@ -13,6 +12,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * The Gripping Yarns article found inside Exhibitions section.
+ */
 public class GrippingYarnsArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -75,6 +77,9 @@ public class GrippingYarnsArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit exit of the article here.
+             */
             case 0: return FirstPageFragment.newInstance("Arthur Conan Doyle wrote about 60 stories starring his most famous creation," +
             		" the detective Sherlock Holmes. He had not planned to write nearly as many – he soon wearied of his hero – but his enormous reading public continued to demand more, and so he continued," +
             		" producing an infinite variety of tales, collected in nine volumes.\n\n"+

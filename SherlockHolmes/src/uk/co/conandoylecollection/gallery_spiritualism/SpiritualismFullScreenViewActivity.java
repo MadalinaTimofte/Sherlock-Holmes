@@ -7,8 +7,11 @@ import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
 import android.view.MenuItem;
-
 import uk.co.conandoylecollection.R;
+
+/*
+ * The full screen image is showed.
+ */
 public class SpiritualismFullScreenViewActivity extends Activity{
 
 	

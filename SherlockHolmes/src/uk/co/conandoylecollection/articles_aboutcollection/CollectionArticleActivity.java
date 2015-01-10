@@ -14,6 +14,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+The About Collection Article found inside About Collection section.
+*/
 public class CollectionArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -45,7 +48,9 @@ public class CollectionArticleActivity extends FragmentActivity {
     
     }
 
-    
+/*
+ Creates buttons Previous, Next and Finish in the action bar.
+ */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
@@ -101,6 +106,9 @@ public class CollectionArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit here for the first page of the article.
+             */
             case 0: return FirstPageFragment.newInstance("Richard Lancelyn Green was a leading expert on Sir Arthur Conan Doyle and Sherlock Holmes and " +
             		"he collected passionately from an early age, over a period of 40 years.\n\n" +
             		"The Collection includes first editions of books, related letters, film and television " +
@@ -117,6 +125,10 @@ public class CollectionArticleActivity extends FragmentActivity {
             		"scholars and aficionados.\n\n" +
             		"This app provides merely a glimpse into the world of Sir Arthur Conan Doyle as portrayed by the " +
             		"wealth of information bequeathed to the city.");
+            
+            /*
+             * Edit here for the second page of the article.
+             */
             case 1: return SecondPageFragment.newInstance("The archive and research centre is based in the Portsmouth History Centre in Porstmouth Central Library.\n\n" +
             		"The Arthur Conan Doyle Richard Lancelyn Green bequest offers the opportunity:\n" +
             		"• To explore the everyday existence of Arthur Conan Doyle during the Victorian and Edwardian eras \n" +
@@ -129,6 +141,9 @@ public class CollectionArticleActivity extends FragmentActivity {
             }
         }
  
+        /*
+         * The count number of the articles.
+         */
         @Override
         public int getCount() {
             return 2;

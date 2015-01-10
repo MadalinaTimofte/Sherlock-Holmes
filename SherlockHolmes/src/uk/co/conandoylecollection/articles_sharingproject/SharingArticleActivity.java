@@ -15,6 +15,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * The Sharing Sherlock Project article found inside About Collection section.
+ */
 public class SharingArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -76,6 +79,9 @@ public class SharingArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit here the text of the article.
+             */
             case 0: return FirstPageFragment.newInstance("Sir Arthur Conan Doyle's connections to Portsmouth are strong - he was living here " +
             		"when he wrote his first novel, The Study in Scarlet, and played an important part in the city.\n\n" +
             		"To promote the history of Arthur Conan Doyle's association with Portsmouth, and to " +

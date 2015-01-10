@@ -13,6 +13,9 @@ import android.widget.GridView;
 
 import uk.co.conandoylecollection.R;
 
+/*
+ * The grid images are showed.
+ */
 public class SpiritualismGridLayoutActivity extends Activity {
 	 
     @Override

@@ -9,6 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+/*
+ * The layout of the article with content: text, image and web link.
+ */
 public class FirstPageFragment extends Fragment{
 	
 
@@ -27,9 +31,6 @@ public class FirstPageFragment extends Fragment{
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));
 	       
-	      
-	        
-
 	        return v;
 	    }
 

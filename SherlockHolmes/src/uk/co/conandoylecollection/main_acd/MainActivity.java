@@ -2,6 +2,9 @@ package uk.co.conandoylecollection.main_acd;
 
 import uk.co.conandoylecollection.articles_acd.ACDArticleActivity;
 
+/*
+ * Access the icons from ACD section.
+ */
 import uk.co.conandoylecollection.articles_holmes.HolmesArticleActivity;
 
 

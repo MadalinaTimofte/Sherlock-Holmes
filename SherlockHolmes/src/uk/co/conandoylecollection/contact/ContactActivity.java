@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
+/*
+ * The Contact section. Text in contact_layout file.
+ */
 public class ContactActivity extends Activity{
 	 protected void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);

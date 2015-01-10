@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/*
+ * The layout of the page with content: text , image and web link.
+ */
 public class FirstPageFragment extends Fragment{
 	
 	

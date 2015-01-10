@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
+/*
+ * Shows the map content.
+ */
 public class MapActivity extends Activity{
 	 protected void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);

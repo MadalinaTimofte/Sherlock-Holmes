@@ -22,6 +22,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
+/*
+ * Class for accessing the list of exhibitions found inside Exhibitions section.
+ */
 public class ListActivity extends Activity implements OnItemClickListener{
 	
 	GridView gridview;

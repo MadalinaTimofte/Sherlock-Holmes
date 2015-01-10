@@ -10,6 +10,9 @@ import android.view.MenuItem;
 
 import uk.co.conandoylecollection.R;
 
+/*
+ * The image is showed full screen.
+ */
 public class ACDFullScreenViewActivity extends Activity{
 
 	
@@ -24,7 +27,7 @@ public class ACDFullScreenViewActivity extends Activity{
 		
 		  ActionBar actionBar = getActionBar();
 	        actionBar.setDisplayHomeAsUpEnabled(true);
-	        actionBar.setTitle("Pompey Lad");
+	        actionBar.setTitle("ACD");
 
 		viewPager = (ViewPager) findViewById(R.id.pager);
 

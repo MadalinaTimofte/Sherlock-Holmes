@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.articles_rlg;
 
-
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +17,9 @@ import uk.co.conandoylecollection.R;
 
 import uk.co.conandoylecollection.main_aboutCollection.MainActivity;
 
+/*
+ * The Introduction to Richard Lancelyn Green article found inside About Collection section.
+ */
 public class RLGArticleActivity extends FragmentActivity {
 	private ViewPager mPager;
 	private PagerAdapter pagerAdapter;
@@ -72,6 +74,9 @@ public class RLGArticleActivity extends FragmentActivity {
         public Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit here the text of the article.
+             */
             case 0: return FirstPageFragment.newInstance("Richard devoted his life to the study of Sherlock Holmes and Sir Arthur Conan Doyle " +
             		"and was recognised world-wide as one of the leading experts in this field. He" +
             		"amassed the most wide-ranging collection of Conan Doyle and Holmes material " +

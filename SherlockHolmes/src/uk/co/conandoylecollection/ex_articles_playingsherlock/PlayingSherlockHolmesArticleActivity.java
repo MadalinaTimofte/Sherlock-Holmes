@@ -1,6 +1,5 @@
 package uk.co.conandoylecollection.ex_articles_playingsherlock;
 
-
 import uk.co.conandoylecollection.R;
 import android.app.ActionBar;
 import android.content.Intent;
@@ -13,6 +12,9 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/*
+ * The Playing Sherlock Holmes article found inside Exhibitions section.
+ */
 public class PlayingSherlockHolmesArticleActivity extends FragmentActivity {
 	
 	private ViewPager mPager;
@@ -75,6 +77,9 @@ public class PlayingSherlockHolmesArticleActivity extends FragmentActivity {
         public android.support.v4.app.Fragment getItem(int pos) {
             switch(pos) {
 
+            /*
+             * Edit text of the article here.
+             */
             case 0: return FirstPageFragment.newInstance("When Arthur Conan Doyle created Sherlock Holmes, he had no idea of how popular his hero was to become. Soon famous as a man of many disguises," +
             		" Sherlock began to appear in places other than books and magazines.\n\n" +
             		"In 1899, he was played on stage by the charismatic American actor William Gillette (who coined the phrase ‘Elementary my dear Watson’). On screen he has been played by many different actors," +

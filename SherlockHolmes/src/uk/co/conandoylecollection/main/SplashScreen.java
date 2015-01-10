@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 
+/*
+ * The Splash screen is showed.
+ */
 public class SplashScreen extends Activity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
