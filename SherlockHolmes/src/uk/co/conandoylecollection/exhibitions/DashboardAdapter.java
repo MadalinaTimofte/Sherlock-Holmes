@@ -23,12 +23,10 @@ public class DashboardAdapter extends BaseAdapter {
             R.drawable.stitchingastory, R.drawable.thelostworld1, 
             R.drawable.studyforsherlock, R.drawable.thecottingleyfairies, 
             R.drawable.grippingyarns, R.drawable.tocatchathief, 
-            R.drawable.playingsherlock
-            
-    };
+           R.drawable.playingsherlock};
     
     private String[] title = {
-    		"","","","","","","","",""
+    		"","","","","","","","","",""
     };
     
   // Constructor
@@ -64,9 +62,12 @@ public class DashboardAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
     	View row = convertView;
     	if(row==null){
-    		LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
+    		
+            LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(     Context.LAYOUT_INFLATER_SERVICE );
             row = inflater.inflate(R.layout.grid_row, parent, false);
-
+        } else {
+            row = (View) convertView;
+        }
 
             TextView textViewTitle = (TextView) row.findViewById(R.id.textView);
             ImageView imageView = (ImageView) row.findViewById(R.id.imageView);
@@ -74,7 +75,7 @@ public class DashboardAdapter extends BaseAdapter {
             imageView.setImageResource(mThumbIds[position]);
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             textViewTitle.setText(title[position]);
-    	}
+    	
        
         return row;
     }

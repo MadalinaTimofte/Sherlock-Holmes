@@ -89,7 +89,7 @@ public class HolmesArticleActivity extends FragmentActivity {
             		"Sherlock Holmes introduced himself to the Victorian readership as an extraordinary English " +
             		"reasoning-machine, a man using the latest forensic techniques and a method of deduction " +
             		"taken from Conan Doyle's friend, Joseph Bell. Holmes interprets footprints, shoe prints, carriage-wheel" +
-            		"tracks, horseshoe prints, bicycle tracks, and tobacco ash. His investigations were the" +
+            		"tracks, horseshoe prints, bicycle tracks, and tobacco ash. His investigations were the " +
             		"Victorian equivalent of the modern CSI series.\n\n" +
             		"Conan Doyle wrote 'The Sign of Four', the second of the two Sherlock Holmes novels written in Portsmouth, " +
             		"at the request of the editor of Lippincott's Magazine, who he had met at a dinner party in London.\n\n" +

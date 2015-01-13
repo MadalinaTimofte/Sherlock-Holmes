@@ -92,7 +92,7 @@ public class SharingArticleActivity extends FragmentActivity {
             		"• A new online exhibition\n" +
             		"• 30 outreach and education community/school workshops resulting in a better understanding of the literary heritage or Portsmouth and the themes from the collection\n" +
             		"• A series of school and community group study packs and handling boxes aimed at Key stage 2 to 4 which will support the exhibition and workshop programme\n" +
-            		"• Engagement and training opportunities for 20 new volunteers. Find out more about volunteering opportunities\n\n" +
+            		"• Engagement and training opportunities for 20 new volunteers. Find out more about volunteering opportunities.\n\n" +
             		"The exhibitions are on a wide range of themes, stretching from Arthur Conan Doyle: " +
             		"Sporting Hero to The Lost World, and are taking place in local community centres and public spaces.\n" +
             		"This app is part of this project and provides an introduction to Arthur Conan Doyle " +

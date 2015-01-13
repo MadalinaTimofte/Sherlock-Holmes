@@ -102,7 +102,7 @@ public class ListActivity extends Activity implements OnItemClickListener{
         	            case android.R.id.home:
         	                // Navigate "up" the demo structure to the launchpad activity.
         	                // See http://developer.android.com/design/patterns/navigation.html for more.
-        	                NavUtils.navigateUpTo(this, new Intent(this, uk.co.conandoylecollection.main.MainActivity.class));
+        	                NavUtils.navigateUpTo(this, new Intent(this, uk.co.conandoylecollection.exhibitions.MainActivity.class));
         	              
         	                return true;
         	        }

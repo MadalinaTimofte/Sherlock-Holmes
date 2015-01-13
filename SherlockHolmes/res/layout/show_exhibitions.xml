@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <TextView
+            android:id="@+id/textLine1"
+            style="?android:textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:text="About the exhibitions" />
+
+        <TextView
+            android:id="@+id/textLine2"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:lineSpacingMultiplier="1.2"
+            android:text="These online exhibitions form part of the Sharing Sherlock: The Story of a Pompey Lad about Sir Arthur Conan Doyle. Based upon the touring exhibitions created with local schools and groups, this online exhibition provides a glimpse into the world of Sir Arthur Conan Doyle as portrayed in the Sir Arthur Conan Doyle collection of first editions of books, related letters, film and television memorabilia bequeathed to Portsmouth by Richard Lancelyn Green.\n\nIt was in Portsmouth that Sir Arthur Conan Doyle introduced his most famous creation, Sherlock Holmes, when he published his first story A Study in Scarlet. \n\nThese exhibitions celebrate the life and work of one of Portsmouth&apos;s most celebrated residents.\n" />
+
+        <Button
+            android:name="@+id/ivClick"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:onClick="showExhibition"
+           android:background="@drawable/button"
+             />
+    </LinearLayout>
+
+</ScrollView>

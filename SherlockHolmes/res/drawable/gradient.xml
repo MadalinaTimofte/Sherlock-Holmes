@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <bitmap android:src="@drawable/icon_list1"/>
+    </item>
+    <item>
+        <shape >
+            <gradient android:angle="90" android:startColor="#7fcdea" android:centerColor="#7fcdea" android:endColor="#7fcdea"/>
+        </shape>
+    </item>
+</layer-list>

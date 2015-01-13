@@ -25,7 +25,10 @@ public class FirstPageFragment extends Fragment{
 	        ImageView imageview = (ImageView)v.findViewById(R.id.pager_image);
 	        imageview.setImageResource(R.drawable.articles_thelostworld);
 	        TextView web_link = (TextView) v.findViewById(R.id.web_link);
-	        web_link.setText("http://www.conandoylecollection.co.uk/lost-world.html");
+	        web_link.setText("Watch the The Lost and Found World film\n" +
+	        		"http://vimeo.com/84220764 \n\n" +
+	        		"Find out more about The Lost World Exhibition\n " +
+	        "http://www.conandoylecollection.co.uk/lost-world.html" );
 	        Linkify.addLinks(web_link, Linkify.ALL);
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));
