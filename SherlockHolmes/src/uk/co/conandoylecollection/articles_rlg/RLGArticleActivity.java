@@ -78,13 +78,13 @@ public class RLGArticleActivity extends FragmentActivity {
              * Edit here the text of the article.
              */
             case 0: return FirstPageFragment.newInstance("Richard devoted his life to the study of Sherlock Holmes and Sir Arthur Conan Doyle " +
-            		"and was recognised world-wide as one of the leading experts in this field. He" +
-            		"amassed the most wide-ranging collection of Conan Doyle and Holmes material " +
+            		"and was recognised world-wide as one of the leading experts in this field. " +
+            		"He amassed the most wide-ranging collection of Conan Doyle and Holmes material " +
             		"anywhere in the world, buying up first editions of books, related letters, film and " +
             		"television memorabilia, merchandising and paraphernalia. He even recreated the " +
             		"221b Baker Street study in his attic.\n\n" +
             		"Throughout his life, he was a prolific writer on Holmes and Conan Doyle, producing " +
-            		"over 200 separate publications.  He was an active member of many of the groups " +
+            		"over 200 separate publications. He was an active member of many of the groups " +
             		"associated with Sherlock Holmes and Conan Doyle. He was Chairman of the " +
             		"Sherlock Holmes Society of London for the period 1996-99. He was well respected " +
             		"and liked for his good sense of humour and generosity to other scholars, his " +

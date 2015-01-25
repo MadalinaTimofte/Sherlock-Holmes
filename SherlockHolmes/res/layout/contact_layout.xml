@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:gravity="left"
         android:textSize="16sp"
-        android:text="Michael Gunton\nSenior Archivist\nThe Conan Doyle Collection\nNorrish Central Library\nGuildhall Square\nPortsmouth \nPO1 2DX\nTelephone: 023 9281 9311 (City Helpdesk)\nFax:  023 9283 4904\nEmail: Lancelyngreencollection@portsmouthcc.gov.uk"
+        android:text="The Conan Doyle Collection\nNorrish Central Library\nGuildhall Square\nPortsmouth \nPO1 2DX\nTelephone:  023 9268 8043 (City Helpdesk)\nFax:  023 9283 4904\nEmail:  sherlock.holmes@portsmouthcc.gov.uk"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
     />

@@ -80,7 +80,7 @@ public class StitchingAStoryArticleActivity extends FragmentActivity {
             /*
              * Edit text of the article here.
              */
-            case 0: return FirstPageFragment.newInstance("In Arthur Conan Doyle’s story The Adventure of the Copper Beeches, a resourceful" +
+            case 0: return FirstPageFragment.newInstance("In Arthur Conan Doyle’s story 'The Adventure of the Copper Beeches', a resourceful" +
             		" young woman seeks help from Sherlock Holmes and Dr Watson. Violet Hunter has recently been employed by the portly Mr Rucastle" +
             		" as governess in a remote country house. The job is well-paid, but has its own strange drawbacks: Violet has to cut off her long coppery" +
             		" hair and to sit in the drawing-room window, wearing a blue dress.\n\n" +

@@ -81,10 +81,10 @@ public class TheLostWorldArticleActivity extends FragmentActivity {
             /*
              * Edit text of the article here.
              */
-            case 0: return FirstPageFragment.newInstance(" The Lost World is a bold and imaginative account of an expedition to the Amazon basin, led by Professor Challenger " +
-            		"(the first of four books featuring this huge and bearded, unruly figure).\n\n " +
-            		"A group of young people from Portsmouth Autism Support Network (PASN) created their own interpretation of The Lost World, using 2D stop-motion animation " +
-            		"and a musical accompaniment. A part of both the Sharing Sherlock and Strong Voices projects, this is a lively contribution to The Lost World's continuing history.\n "
+            case 0: return FirstPageFragment.newInstance("'The Lost World' is a bold and imaginative account of an expedition to the Amazon basin, led by Professor Challenger " +
+            		"(the first of four books featuring this huge and bearded, unruly figure).\n\n" +
+            		"A group of young people from Portsmouth Autism Support Network (PASN) created their own interpretation of 'The Lost World', using 2D stop-motion animation " +
+            		"and a musical accompaniment. A part of both the Sharing Sherlock and Strong Voices projects, this is a lively contribution to 'The Lost World''s continuing history.\n "
             		);
             
             default: return null;

@@ -23,7 +23,9 @@ public class FirstPageFragment extends Fragment{
 	        TextView title = (TextView) v.findViewById(R.id.pager_title);
 	        title.setText("Sharing Sherlock Project");
 	        TextView web_link = (TextView) v.findViewById(R.id.web_link);
-	        web_link.setText("http://www.conandoylecollection.co.uk/index.html");
+	        web_link.setText("http://www.conandoylecollection.co.uk/index.html\n" +
+	        		" Find out more about volunteering opportunities:\n" +
+	        		" http://www.conandoylecollection.co.uk/Volunteering.htm");
 	        Linkify.addLinks(web_link, Linkify.ALL);
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));

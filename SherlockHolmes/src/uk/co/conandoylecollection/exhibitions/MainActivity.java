@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 /*
- * The Exhibition section main text (exhibitions.xml) followed by the list.
+ * The Exhibition section main text (show_exhibitions.xml) followed by the list.
  */
 public class MainActivity extends Activity  {
 	@Override

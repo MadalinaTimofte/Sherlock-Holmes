@@ -22,12 +22,12 @@ public final class R {
     }
     public static final class drawable {
         public static final int agoodsport=0x7f020000;
-        public static final int articles_acd_spiritualism=0x7f020001;
-        public static final int articles_agoodsport=0x7f020002;
-        public static final int articles_catchathief=0x7f020003;
-        public static final int articles_conanandsons=0x7f020004;
-        public static final int articles_conandoyle=0x7f020005;
-        public static final int articles_grippingyarns=0x7f020006;
+        public static final int article_gripping=0x7f020001;
+        public static final int articles_acd_spiritualism=0x7f020002;
+        public static final int articles_agoodsport=0x7f020003;
+        public static final int articles_catchathief=0x7f020004;
+        public static final int articles_conanandsons=0x7f020005;
+        public static final int articles_conandoyle=0x7f020006;
         public static final int articles_playingsherlock=0x7f020007;
         public static final int articles_richard_lancelyn_green_000=0x7f020008;
         public static final int articles_rlg_collection=0x7f020009;

@@ -81,13 +81,13 @@ public class ThePompeyLadArticleActivity extends FragmentActivity {
              * Edit text of article here.
              */
             case 0: return FirstPageFragment.newInstance("Arthur Conan Doyle lived in Southsea when he wrote the first" +
-            		" two Sherlock stories A Study in Scarlet and The Sign of Four.\n\n" +
+            		" two Sherlock stories 'A Study in Scarlet' and 'The Sign of Four'.\n\n" +
             		"Conan Doyle threw himself into the life of the town. He joined the Portsmouth Literary and Scientific Society," +
             		" and gave public talks on Edward Gibbon, Thomas Carlyle, and George Meredith, among others. He also played for the" +
             		" local cricket and bowls teams, and was the first goalkeeper for the team that became Portsmouth Football Club.\n\n"+
             		"Doyle had less than £10 in his pockets when he arrived in Portsmouth. By the time he left, eight years later, " +
-            		"he was acclaimed both as a writer and a society man. His creation Sherlock Holmes nowbelongs to the world, but, " +
-            		"Portsmouth-born, he remains a Pompey lad.\n\n"+
+            		"he was acclaimed both as a writer and a society man. His creation Sherlock Holmes now belongs to the world, but, " +
+            		"Portsmouth born, he remains a Pompey lad.\n\n"+
             		"Find out more about Conan Doyle: A Pompey Lad ");
             
             default: return null;

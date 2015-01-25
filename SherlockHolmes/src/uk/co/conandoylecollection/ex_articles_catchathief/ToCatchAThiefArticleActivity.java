@@ -80,13 +80,13 @@ public class ToCatchAThiefArticleActivity extends FragmentActivity {
             /*
              * Edit here the text of the article.
              */
-            case 0: return FirstPageFragment.newInstance("In Arthur Conan Doyle’s story Charles Augustus Milverton, Sherlock Holmes and Dr Watson, equipped " + 
+            case 0: return FirstPageFragment.newInstance("In Arthur Conan Doyle’s story 'Charles Augustus Milverton', Sherlock Holmes and Dr Watson, equipped " + 
 														"with a ‘first-class, up-to-date burgling kit’, are doing a " +
 														"spot of house-breaking. They are looking for documents "+
 														"which will incriminate the building’s owner, the blackmailer "+
 														"Charles Augustus Milverton. The pair are in disguise, "+
 														"wearing silken masks specially made by Watson for the occasion.\n\n" +
-														"For better or worse, masks transform people – as the" + 
+														"For better or worse, masks transform people – as the " + 
                                                         "students of Harbour School’s Key Stage 3 Group " +
                                                         "discovered while creating their own fanciful masks and "+ 
                                                         "costumes. Like those of Holmes and Watson, their "+ 

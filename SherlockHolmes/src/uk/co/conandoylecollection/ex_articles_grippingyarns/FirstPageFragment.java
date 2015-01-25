@@ -23,7 +23,7 @@ public class FirstPageFragment extends Fragment{
 	        TextView title = (TextView) v.findViewById(R.id.pager_title);
 	        title.setText("Gripping Yarns");
 	        ImageView imageview = (ImageView)v.findViewById(R.id.pager_image);
-	        imageview.setImageResource(R.drawable.articles_grippingyarns);
+	        imageview.setImageResource(R.drawable.article_gripping);
 	        TextView web_link = (TextView) v.findViewById(R.id.web_link);
 	        web_link.setText("http://www.conandoylecollection.co.uk/Grippingyarns.html");
 	        Linkify.addLinks(web_link, Linkify.ALL);

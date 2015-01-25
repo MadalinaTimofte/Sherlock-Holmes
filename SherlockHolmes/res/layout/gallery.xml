@@ -23,7 +23,7 @@
 			style="?android:textAppearanceMedium"
 			android:lineSpacingMultiplier="1.2"
 			android:gravity="left"
-	        android:text="Working with schools and community groups in Portsmouth we have created a number of exhibitions based upon Sherlock Holmes and his adventures. Find out more about Sherlock Holmes and the Arthur Conan Doyle Collection :"
+	        android:text="Working with schools and community groups in Portsmouth we have created a number of exhibitions based upon Sherlock Holmes and his adventures.\n\n Find out more about Sherlock Holmes and the Arthur Conan Doyle Collection :"
          />
 			
 			<TextView 

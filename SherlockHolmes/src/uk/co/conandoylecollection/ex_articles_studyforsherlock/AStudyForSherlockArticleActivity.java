@@ -80,7 +80,7 @@ public class AStudyForSherlockArticleActivity extends FragmentActivity {
             /*
              * Edit text of the article here.
              */
-            case 0: return FirstPageFragment.newInstance("In the opening scenes of Sir Arthur Conan Doyle’s first Sherlock Holmes novel, A Study in Scarlet (written in Portsmouth), " +
+            case 0: return FirstPageFragment.newInstance("In the opening scenes of Sir Arthur Conan Doyle’s first Sherlock Holmes novel, 'A Study in Scarlet' (written in Portsmouth), " +
             		"Holmes and Dr Watson go to view some lodgings at 221B Baker Street.\n\n"+
             		"This address was to stay unchanged through all the many stories about Doyle’s extraordinary detective. And the sitting-room became Holmes’s laboratory and study," +
             		" the centre of his investigations.\n\n" +

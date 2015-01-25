@@ -131,12 +131,12 @@ public class CollectionArticleActivity extends FragmentActivity {
              */
             case 1: return SecondPageFragment.newInstance("The archive and research centre is based in the Portsmouth History Centre in Porstmouth Central Library.\n\n" +
             		"The Arthur Conan Doyle Richard Lancelyn Green bequest offers the opportunity:\n" +
-            		"• To explore the everyday existence of Arthur Conan Doyle during the Victorian and Edwardian eras \n" +
-            		"• To discover the breadth of interests Conan Doyle had during his lifetime " +
-            		"• To put Conan Doyle’s work into context and extend an understanding of his writing, his world and his legacy" +
-            		"• To use the atmospheric ‘A Study in Sherlock’ exhibition to inspire new creative writing" +
+            		"• To explore the everyday existence of Arthur Conan Doyle during the Victorian and Edwardian eras\n" +
+            		"• To discover the breadth of interests Conan Doyle had during his lifetime\n" +
+            		"• To put Conan Doyle’s work into context and extend an understanding of his writing, his world and his legacy\n" +
+            		"• To use the atmospheric ‘A Study in Sherlock’ exhibition to inspire new creative writing\n" +
             		"• To understand the vital importance of 'detective skills', i.e. research, observation, information management in developing abilities which will benefit pupils throughout their lives\n\n" +
-            		"To visit the collection contact us on 023 9283 4727 or email ");
+            		"To visit the collection contact us on 023 9268 8043 or email ");
             default: return null;
             }
         }

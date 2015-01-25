@@ -23,7 +23,7 @@ public class SecondPageFragment extends Fragment{
 	        TextView title = (TextView) v.findViewById(R.id.pager_title);
 	        title.setText("Visiting the ACD Collection - The RLG Bequest");
 	        TextView web_link = (TextView) v.findViewById(R.id.web_link);
-	        web_link.setText("Lancelyngreencollection@portsmouthcc.gov.uk");
+	        web_link.setText("sherlock.holmes@portsmouthcc.gov.uk");
 	        Linkify.addLinks(web_link, Linkify.ALL);
 	        TextView tv = (TextView) v.findViewById(R.id.pager_text);
 	        tv.setText(getArguments().getString("msg"));

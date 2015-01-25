@@ -82,10 +82,10 @@ public class ACDArticleActivity extends FragmentActivity {
             /*
              * Edit the page of the article here.
              */
-            case 0: return FirstPageFragment.newInstance("Arthur Conan Doyle was born in Edinburgh on May 22nd 1859, the eldest son of 9. Educated at Stonyhurst , " +
-            		"an austere Jesuit boarding school in the north of England he discovered an ability to write and tell extravagant stories.\n\n" +
-            		"Conan Doyle trained as a doctor at the University of Edinburgh where fellow students included J.M.Barrie and Robert Louis Stevenson." +
-            		"He also became friends with Dr Joseph Bell, a man well known for his method of deducting information about people " +
+            case 0: return FirstPageFragment.newInstance("Arthur Conan Doyle was born in Edinburgh on May 22nd 1859, the eldest son of 9. Educated at Stonyhurst, " +
+            		"an austere Jesuit boarding school in the north of England, where he discovered an ability to write and tell extravagant stories.\n\n" +
+            		"Conan Doyle trained as a doctor at the University of Edinburgh where fellow students included J.M.Barrie and Robert Louis Stevenson. " +
+            		"He also became friends with Dr Joseph Bell, a man well known for his method of deducing information about people " +
             		"and their lives through simple acts of observation and deduction - the influence which led to the creation of his greatest detective, Sherlock Holmes.\n\n" +
             		"The life of Sir Arthur Conan Doyle illustrates the excitement and diversity of the Victorian period as much as that of any other figure of this period.\n\n" +
             		"Over his life he was:\n" +
@@ -99,15 +99,15 @@ public class ACDArticleActivity extends FragmentActivity {
             		"• A campaigner against miscarriages of justice\n" +
             		"• The head of an extraordinary family\n" +
             		"• A succesful author\n" +
-            		"• An outspoken proponent of spiritualism\n\n" +
-            		"In his autobiography, he wrote: 'I have had a life which, for variety and romance, could I think , hardly be exceeded.'\n\n" +
+            		"• An outspoken proponent of spiritualism\n" +
+            		"In his autobiography he wrote: 'I have had a life which, for variety and romance, could I think, hardly be exceeded.'\n\n" +
             		"The Portsmouth connection\n\n" +
-            		"Doyle arrived in Portsmouth in 1882 and set up a GP surgery in Elm Grove, Southsea." +
+            		"Doyle arrived in Portsmouth in 1882 and set up a GP surgery in Elm Grove, Southsea. " +
             		"He threw himself into the life of town joining the Portsmouth Literacy and Scientific Society, " +
             		"and giving public talks on Edward Gibbon, Thomas Carlyle, and George Meredith, among others.\n\n" +
-            		"He also played for the local cricket and bowls teams, and was the first goalkeeper for the team that became Portsmouth Football Club." +
-            		"It was in Southsea he began his writing career with short stories, historical novels including Micah Clarke " +
-            		"and the first two Sherlock Holmes tales, A Study in Scarlet and The Sign of Four. \n\n" +
+            		"He also played for the local cricket and bowls teams, and was the first goalkeeper for the team that became Portsmouth Football Club. " +
+            		"It was in Southsea he began his writing career with short stories, historical novels including 'Micah Clarke' " +
+            		"and the first two Sherlock Holmes tales, 'A Study in Scarlet' and 'The Sign of Four'. \n\n" +
             		"Find out more about Arthur Conan Doyle:");
             
             default: return null;

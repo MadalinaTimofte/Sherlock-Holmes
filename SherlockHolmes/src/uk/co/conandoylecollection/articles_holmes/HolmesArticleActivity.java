@@ -83,9 +83,9 @@ public class HolmesArticleActivity extends FragmentActivity {
              */
             case 0: return FirstPageFragment.newInstance("Detective fiction was a relatively new genre of writing when Sir Arthur Conan Doyle first " +
             		"started writing. The genre emerged through the short stories of Edgar Allan Poe but it was Conan Doyle " +
-            		"who firmly established detective fiction as perhaps the most popular genre of all.\n\n A Study in Scarlet\n\n " +
-            		"The first Sherlock Holmes story, 'A Study in Scarlet' initially appeared in Beeton's Christmas Annual in 1887." +
-            		"The story details the events following the kidnap, forced marriage, and later death of a young woman in United States.\n\n " +
+            		"who firmly established detective fiction as perhaps the most popular genre of all.\n\n A Study in Scarlet\n\n" +
+            		"The first Sherlock Holmes story, 'A Study in Scarlet' initially appeared in Beeton's Christmas Annual in 1887. " +
+            		"The story details the events following the kidnap, forced marriage, and later death of a young woman in United States.\n\n" +
             		"Sherlock Holmes introduced himself to the Victorian readership as an extraordinary English " +
             		"reasoning-machine, a man using the latest forensic techniques and a method of deduction " +
             		"taken from Conan Doyle's friend, Joseph Bell. Holmes interprets footprints, shoe prints, carriage-wheel" +
